@@ -1,5 +1,5 @@
 ////
-////  main.c
+////  Lorenz.c
 ////  HW2-Lorenz Attractor
 ////
 ////  Created by Mahalia Evans on 9/17/20.
