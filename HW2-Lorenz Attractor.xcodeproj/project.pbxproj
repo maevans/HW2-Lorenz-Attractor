@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B80EC4422514461700336078 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EC4412514461700336078 /* OpenGL.framework */; };
 		B80EC4442514462200336078 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EC4432514462200336078 /* GLUT.framework */; };
+		B80EC447251447F400336078 /* exampleG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B80EC446251447F400336078 /* exampleG.cpp */; };
+		B80EC44A2514483200336078 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80EC4412514461700336078 /* OpenGL.framework */; };
 		B894D9882514215D00FB2520 /* Lorenz.c in Sources */ = {isa = PBXBuildFile; fileRef = B894D9872514215D00FB2520 /* Lorenz.c */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,7 @@
 /* Begin PBXFileReference section */
 		B80EC4412514461700336078 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		B80EC4432514462200336078 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		B80EC446251447F400336078 /* exampleG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exampleG.cpp; sourceTree = "<group>"; };
 		B894D9842514215D00FB2520 /* HW2-Lorenz Attractor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW2-Lorenz Attractor"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B894D9872514215D00FB2520 /* Lorenz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Lorenz.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,7 @@
 			files = (
 				B80EC4442514462200336078 /* GLUT.framework in Frameworks */,
 				B80EC4422514461700336078 /* OpenGL.framework in Frameworks */,
+				B80EC44A2514483200336078 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				B894D9872514215D00FB2520 /* Lorenz.c */,
+				B80EC446251447F400336078 /* exampleG.cpp */,
 			);
 			path = "HW2-Lorenz Attractor";
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80EC447251447F400336078 /* exampleG.cpp in Sources */,
 				B894D9882514215D00FB2520 /* Lorenz.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
