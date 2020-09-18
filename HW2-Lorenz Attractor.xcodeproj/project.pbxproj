@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B894D9882514215D00FB2520 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B894D9872514215D00FB2520 /* main.c */; };
+		B894D9882514215D00FB2520 /* Lorenz.c in Sources */ = {isa = PBXBuildFile; fileRef = B894D9872514215D00FB2520 /* Lorenz.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		B894D9842514215D00FB2520 /* HW2-Lorenz Attractor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW2-Lorenz Attractor"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B894D9872514215D00FB2520 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		B894D9872514215D00FB2520 /* Lorenz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Lorenz.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 		B894D9862514215D00FB2520 /* HW2-Lorenz Attractor */ = {
 			isa = PBXGroup;
 			children = (
-				B894D9872514215D00FB2520 /* main.c */,
+				B894D9872514215D00FB2520 /* Lorenz.c */,
 			);
 			path = "HW2-Lorenz Attractor";
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 		B894D97C2514215D00FB2520 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Josie Evans";
 				TargetAttributes = {
 					B894D9832514215D00FB2520 = {
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B894D9882514215D00FB2520 /* main.c in Sources */,
+				B894D9882514215D00FB2520 /* Lorenz.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +152,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -210,6 +211,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -238,6 +240,7 @@
 		B894D98C2514215D00FB2520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -246,6 +249,7 @@
 		B894D98D2514215D00FB2520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
